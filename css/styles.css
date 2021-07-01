@@ -1,0 +1,177 @@
+:root {
+	--green-color: #36c236;
+	--red-color: #e40000;
+}
+
+@font-face {
+	font-family: 'In your face, joffrey!';
+	src: url('../assets/fonts/In_your_face_joffrey!.ttf');
+}
+
+@font-face {
+	font-family: 'VCR_OSD_MONO_1.001.ttf';
+	src: url('../assets/fonts/VCR_OSD_MONO_1.001.ttf');
+}
+
+html {
+	font-family: 'Varela', sans-serif;
+	color: #fff;
+}
+
+/* +++ FIXEDS +++ */
+.header,
+.container,
+.home-btn,
+.footer {
+	position: fixed;
+}
+/* +++ BUTTON CLASS +++ */
+.button {
+	color: #fff;
+	display: block;
+	margin: 0.7rem auto;
+	min-width: 150px;
+	max-width: 200px;
+	padding: 1rem;
+	border: #fff solid 1px;
+	border-radius: 0.6rem;
+	cursor: pointer;
+	user-select: none;
+	/* overflow-wrap: break-word; */
+}
+
+.button:hover {
+	border-color: var(--green-color);
+}
+
+/* +++ BACKGROUND +++ */
+#particles-js {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	/* z-index: -1; */
+	background-color: #000;
+}
+
+/* +++ HEADER +++ */
+.header {
+	top: 10vh;
+	left: 50vw;
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+.header__h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 2.5rem;
+	font-family: 'In your face, joffrey!';
+}
+
+/* +++ CONTAINER +++ */
+.container {
+	overflow-y: auto;
+	display: block;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: calc(2 * (50vh - (10vh + 3rem + 2rem))); /* calc(80vh - 10rem) */
+	min-width: 230px;
+	text-align: center;
+}
+
+.container::-webkit-scrollbar {
+	width: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+	background-color: #111;
+	border-radius: 3px;
+}
+
+.container::-webkit-scrollbar-thumb {
+	background-color: #444;
+	border-radius: 2px;
+}
+
+/* +++ BUTTONS +++ */
+.start-btn {
+	/* font-weight: bold; */
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.home-btn {
+	left: 2vw;
+	bottom: 2vh;
+	visibility: hidden;
+	transform: scale(0.8) translateY(40%);
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.home-btn.visible {
+	visibility: visible;
+}
+
+/* +++ FOOTER +++ */
+.footer {
+	bottom: 2vh;
+	right: 2vh;
+	cursor: default;
+}
+
+.footer__p {
+	margin: 0;
+	font-size: 0.6rem;
+	font-family: 'VCR_OSD_MONO_1.001.ttf';
+}
+
+/* ****************** */
+/* +++ EJERCICIOS +++ */
+/* ****************** */
+
+.input__label {
+	cursor: pointer;
+}
+
+.exercise__input input {
+	padding: 0.2rem;
+	color: #fff;
+	background-color: transparent;
+	border: 1px #fff solid;
+	border-radius: 0.4rem;
+	text-align: center;
+	display: block;
+	margin: 0.5rem auto;
+}
+
+.exercise__input input:focus {
+	border-color: var(--green-color);
+}
+
+.exercise__submit input {
+	padding: 0.5rem 0.7rem;
+	background-color: rgba(40, 40, 40, 0.5);
+	color: #fff;
+	border-radius: 0.3rem;
+	border: none;
+	cursor: pointer;
+	margin-top: 1rem;
+	overflow: hidden;
+}
+
+.exercise__submit input:hover {
+	outline-offset: 1px;
+	-moz-outline-radius: 0.3rem;
+	outline: 1px var(--green-color) solid;
+	background-color: transparent;
+	transform: scale(0.9);
+}
+
+.input__input[type='number']::-webkit-inner-spin-button,
+.input__input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}

@@ -1,0 +1,74 @@
+{
+	"toolsName": [
+		{ "id": "1", "name": "Contar caracteres", "slug": "contar_caracteres" },
+		{ "id": "2", "name": "Cortar texto", "slug": "cortar_texto" },
+		{ "id": "3", "name": "Separar texto", "slug": "separar_texto" },
+		{ "id": "4", "name": "Repetir texto", "slug": "repetir_texto" },
+		{ "id": "5", "name": "Girar texto", "slug": "girar_texto" },
+		{
+			"id": "6",
+			"name": "Contar palabras en texto",
+			"slug": "contar_palabras_en_texto"
+		},
+		{
+			"id": "7",
+			"name": "Saber si es un texto palindromo",
+			"slug": "saber_si_es_un_texto_palindromo"
+		},
+		{
+			"id": "8",
+			"name": "Remover palabra/s en texto",
+			"slug": "remover_palabra_en_texto"
+		},
+		{
+			"id": "9",
+			"name": "Número aleatorio entre 500 y 600",
+			"slug": "numero_aleatorio_entre_500_y_600"
+		},
+		{ "id": "10", "name": "Factorizar", "slug": "factorizar" },
+		{
+			"id": "11",
+			"name": "Saber si es número primo",
+			"slug": "saber_si_es_numero_primo"
+		},
+		{
+			"id": "12",
+			"name": "Saber si es número par o impar",
+			"slug": "saber_si_es_numero_par_o_impar"
+		},
+		{
+			"id": "13",
+			"name": "Convertir Temperatura de ºC a ºF o viceversa",
+			"slug": "convertir_temperatura_de_c_a_f_o_viceversa"
+		},
+		{
+			"id": "14",
+			"name": "Convertir números de base 10 a otra base o viceversa",
+			"slug": "convertir_numeros_de_base_10_a_otra_base_o_viceversa"
+		},
+		{
+			"id": "15",
+			"name": "Descuentos porcentuales",
+			"slug": "descuentos_portcentuales"
+		},
+		{ "id": "16", "name": "Diferenciar años", "slug": "diferenciar_anios" },
+		{
+			"id": "17",
+			"name": "Contar vocales y consonantes",
+			"slug": "contar_vocales_y_consonantes"
+		},
+		{ "id": "18", "name": "Validar nombres", "slug": "validar_nombres" },
+		{ "id": "19", "name": "Validar e-mail", "slug": "validar_email" },
+		{ "id": "20", "name": "Cuadrados", "slug": "cuadrados" },
+		{
+			"id": "21",
+			"name": "Números máximos y mínimos",
+			"slug": "numeros_maximos_y_minimos"
+		},
+		{
+			"id": "22",
+			"name": "Números pares e impares",
+			"slug": "numeros_pares_e_impares"
+		}
+	]
+}
